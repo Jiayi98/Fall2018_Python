@@ -1,0 +1,134 @@
+Here is the testing output. This includes any manual comments. If you have any questions feel free to contact me.
+
+
+Detailed error traces are below the testing log.
+test_logcalls_argtypes_onearg (assignment4_grader.Assignment4Grader) (Weight: 10.00) ...
+ok
+You were given 10.00 points for this result.
+test_logcalls_argtypes_otherargs (assignment4_grader.Assignment4Grader) (Weight: 10.00) ...
+ok
+You were given 10.00 points for this result.
+test_logcalls_info (assignment4_grader.Assignment4Grader) (Weight: 10.00) ...
+ok
+test_logcalls_keyword (assignment4_grader.Assignment4Grader) (Weight: 10.00) ...
+ok
+You were given 10.00 points for this result.
+test_logcalls_keyword_multiple (assignment4_grader.Assignment4Grader) (Weight: 10.00) ...
+ok
+You were given 10.00 points for this result.
+test_logcalls_ld (assignment4_grader.Assignment4Grader) (Weight: 10.00) ...
+ok
+You were given 10.00 points for this result.
+test_logcalls_positional (assignment4_grader.Assignment4Grader) (Weight: 10.00) ...
+ok
+You were given 10.00 points for this result.
+test_logcalls_positional_multiple (assignment4_grader.Assignment4Grader) (Weight: 10.00) ...
+ok
+You were given 10.00 points for this result.
+test_za_code_quality_logcalls_1 (assignment4_grader.Assignment4Grader) (Weight: 10.00) ...
+Examining function logcalls (line #12 in ./zhoujiayi_4151694_46971533_assignment4.py)
+==========
+Is the string formatting code clean and easy to read? (weight 10)
+-4 Use a comprehension instead of a for loop to build the sequence of things to join.
+-2 No reason to build generator identical to items()
+FAIL
+You were given 4.00 points for this result.
+test_za_code_quality_logcalls_2 (assignment4_grader.Assignment4Grader) (Weight: 10.00) ...
+Examining function logcalls (line #12 in ./zhoujiayi_4151694_46971533_assignment4.py)
+==========
+Is the decorator and call code clean and easy to read? (weight 10)
+-8 "cur=set()" does nothing and tells me you took this patterns form somewhere else without knowing what it does.
+FAIL
+You were given 2.00 points for this result.
+test_zz_general_comments (assignment4_grader.Assignment4Grader) (Weight: 0.00) ...
+Examining module zhoujiayi_4151694_46971533_assignment4 (line #0 in ./zhoujiayi_4151694_46971533_assignment4.py)
+==========
+Other comments and adjustments (weight 0)
+Come see me about "cur=set()".
+ok
+You were given 0.00 points for this result.
+
+======================================================================
+FAIL: test_za_code_quality_logcalls_1 (assignment4_grader.Assignment4Grader)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/amp/shared/UTexas/Python/tests/assignment4_grader.py", line 90, in test_za_code_quality_logcalls_1
+    self.askSource(assignment4.logcalls, "Is the string formatting code clean and easy to read?")
+  File "/home/amp/shared/UTexas/Python/tests/grader.py", line 214, in askSource
+    src, "Examining " + exhibit_desc, fn)
+  File "/home/amp/shared/UTexas/Python/tests/grader.py", line 170, in ask
+    self.fail("{}: {}".format(question, reply))
+AssertionError: Is the string formatting code clean and easy to read? (weight 10): -4 Use a comprehension instead of a for loop to build the sequence of things to join.
+-2 No reason to build generator identical to items()
+
+======================================================================
+FAIL: test_za_code_quality_logcalls_2 (assignment4_grader.Assignment4Grader)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/amp/shared/UTexas/Python/tests/assignment4_grader.py", line 95, in test_za_code_quality_logcalls_2
+    self.askSource(assignment4.logcalls, "Is the decorator and call code clean and easy to read?")
+  File "/home/amp/shared/UTexas/Python/tests/grader.py", line 214, in askSource
+    src, "Examining " + exhibit_desc, fn)
+  File "/home/amp/shared/UTexas/Python/tests/grader.py", line 170, in ask
+    self.fail("{}: {}".format(question, reply))
+AssertionError: Is the decorator and call code clean and easy to read? (weight 10): -8 "cur=set()" does nothing and tells me you took this patterns form somewhere else without knowing what it does.
+
+----------------------------------------------------------------------
+Ran 11 tests in 138.464s
+
+FAILED (failures=2)
+
+Here is the output of the PyCodeStyle/PEP8 checker (showing the first instance of each issue).
+This is does not effect your grade ON THIS ASSIGNMENT. However, I may add it as a grading criteria.
+
+./zhoujiayi_4151694_46971533_assignment4.py:17:73: W291 trailing whitespace
+    "{prefix}: {function name}({positional args}..., {keyword=args}...)"
+                                                                        ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank, for easier
+    filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+./zhoujiayi_4151694_46971533_assignment4.py:45:20: E231 missing whitespace after ','
+            t = ((k,v) for (k,v) in kws.items())
+                   ^
+    Each comma, semicolon or colon should be followed by whitespace.
+
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+./zhoujiayi_4151694_46971533_assignment4.py:51:80: E501 line too long (85 > 79 characters)
+            sys.stderr.write("{}: {} -> {}\n".format(prefix,func.__name__,repr(res)))
+                                                                               ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to have
+    several windows side-by-side.  The default wrapping on such devices looks
+    ugly.  Therefore, please limit all lines to a maximum of 79 characters.
+    For flowing long blocks of text (docstrings or comments), limiting the
+    length to 72 characters is recommended.
+
+    Reports error E501.
+./zhoujiayi_4151694_46971533_assignment4.py:56:1: W391 blank line at end of file
+
+^
+    Trailing blank lines are superfluous.
+
+    Okay: spam(1)
+    W391: spam(1)\n
+
+    However the last line should end with a new line (warning W292).
+8       E231 missing whitespace after ','
+1       E501 line too long (85 > 79 characters)
+4       W291 trailing whitespace
+1       W391 blank line at end of file

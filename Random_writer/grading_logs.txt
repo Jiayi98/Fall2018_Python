@@ -1,0 +1,366 @@
+Here is the testing output. This includes any manual comments. If you have any questions feel free to contact me.
+
+
+Detailed error traces are below the testing log.
+test_bytes_nonutf8 (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_bytes_nonutf8_file (final_grader.FinalGrader) (Weight: 3.15) ...
+Failed run 0 with exception: The given iterable must contain the sequence: [254, 255, 254] at least 1 times (in the first 10090 elements)
+Sample: 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 2, 239, 191, 189, 2, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 2, 239, 191
+Failed run 1 with exception: The given iterable must contain the sequence: [254, 255, 254] at least 1 times (in the first 10090 elements)
+Sample: 189, 2, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 2, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 239
+Failed run 2 with exception: The given iterable must contain the sequence: [254, 255, 254] at least 1 times (in the first 10090 elements)
+Sample: 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 2, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239
+Failed run 3 with exception: The given iterable must contain the sequence: [254, 255, 254] at least 1 times (in the first 10090 elements)
+Sample: 189, 2, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 2, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 2, 239, 191, 189, 2, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189, 239, 191, 189
+Succeeded 0.0 of 4 times
+ok
+You were given 0.00 points for this result.
+test_characters (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_characters_level3 (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_generate_count (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_generate_file1 (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_generate_file2 (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_generate_file3 (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_generate_file4 (final_grader.FinalGrader) (Weight: 0.50) ...
+Failed run 0 with exception: The given iterable must contain the sequence: [254, 255, 2] at least 100 times (in the first 10090 elements)
+Sample: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Failed run 1 with exception: The given iterable must contain the sequence: [254, 255, 2] at least 100 times (in the first 10090 elements)
+Sample: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Failed run 2 with exception: The given iterable must contain the sequence: [254, 255, 2] at least 100 times (in the first 10090 elements)
+Sample: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Failed run 3 with exception: The given iterable must contain the sequence: [254, 255, 2] at least 100 times (in the first 10090 elements)
+Sample: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Succeeded 0.0 of 4 times
+ok
+You were given 0.00 points for this result.
+test_generate_file_size (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_graph_module (final_grader.FinalGrader) (Weight: 0.00) ...
+Remember to make sure your graph module is general enough to be used in other applications.
+ok
+test_multiple_generators (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_numeric_sequence (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_numeric_sequence_in (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_numeric_sequence_notin (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_save_load_pickle (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_train_iterable_utf8 (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_train_iterator (final_grader.FinalGrader) (Weight: 3.15) ...
+Failed run 0 with exception: The given iterable must contain the sequence: [3, 4, 5, 5, 4, 3, 2] at least 10 times (in the first 10090 elements)
+Sample: 4, 5, 5, 5, 4, 5, 4, 3, 2, 3, 4, 3, 4, 5, 4, 5, 5, 5, 4, 3, 2, 1, 2, 3, 4, 5, 4, 3, 2, 4, 5, 5, 4, 5, 5, 4, 5, 4, 5, 4, 5, 5, 5, 5, 5, 4, 3, 2, 1, 2, 4, 3, 4, 5, 4, 3, 2, 3, 2, 4, 3, 4, 3, 4, 5, 4, 5, 5, 5, 4, 5, 4, 3, 4, 5, 5, 5, 4, 3, 2, 3, 2, 3, 4, 5, 4, 5, 4, 3, 4, 3, 2, 3, 2, 1, 2, 3, 2, 1, 2
+Succeeded 3.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_train_twice (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_train_url_bytes (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_train_url_characters (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_train_url_utf8 (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_train_url_word (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_words (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_words2 (final_grader.FinalGrader) (Weight: 3.15) ...
+Succeeded 4.0 of 4 times
+ok
+You were given 3.15 points for this result.
+test_za_code_quality_generate (final_grader.FinalGrader) (Weight: 8.00) ...
+Examining function RandomWriter.generate (line #210 in zhoujiayi_4151694_47329789_random_writer/final.py), function RandomWriter.generate_file (line #239 in zhoujiayi_4151694_47329789_random_writer/final.py), module final (line #0 in zhoujiayi_4151694_47329789_random_writer/final.py), module graph (line #0 in zhoujiayi_4151694_47329789_random_writer/graph.py)
+==========
+Is generate code well done? (weight 8)
+-2 Compare by the enum values (Tokenization.word for instance) instead of using the value or name. The whole point of the enum is to provide good constants.
+-2 You duplicate the code to print tokens to the file.
+
+ok
+You were given 4.00 points for this result.
+test_za_code_quality_graph (final_grader.FinalGrader) (Weight: 8.00) ...
+Examining module graph (line #0 in zhoujiayi_4151694_47329789_random_writer/graph.py)
+==========
+Is graph code clean and easy to read? (weight 8)
+-1 Making training/generating store state in the graph objects is a bad idea because those objects represent the graph NOT the state of training or generating.
+
+ok
+You were given 7.00 points for this result.
+test_za_code_quality_train (final_grader.FinalGrader) (Weight: 8.00) ...
+Examining function RandomWriter.train_url (line #319 in zhoujiayi_4151694_47329789_random_writer/final.py), function RandomWriter.train_iterable (line #345 in zhoujiayi_4151694_47329789_random_writer/final.py), module final (line #0 in zhoujiayi_4151694_47329789_random_writer/final.py), module graph (line #0 in zhoujiayi_4151694_47329789_random_writer/graph.py)
+==========
+Is training code well done? (weight 8)
+-3 Use a for loop directly on the data (using windowed as needed) instead of indexing.
+
+ok
+You were given 5.00 points for this result.
+test_za_code_stream_training (final_grader.FinalGrader) (Weight: 3.00) ...
+Examining function RandomWriter.train_url (line #319 in zhoujiayi_4151694_47329789_random_writer/final.py), function RandomWriter.train_iterable (line #345 in zhoujiayi_4151694_47329789_random_writer/final.py)
+==========
+Does this code avoid extra copies in all possible cases? (weight 3)
+-1 response.content
+ok
+You were given 2.00 points for this result.
+test_zz_general_comments (final_grader.FinalGrader) (Weight: 0.00) ...
+Examining module final (line #0 in zhoujiayi_4151694_47329789_random_writer/final.py), module graph (line #0 in zhoujiayi_4151694_47329789_random_writer/graph.py)
+==========
+Other comments and adjustments (weight 0)
+No.
+
+ok
+You were given 0.00 points for this result.
+
+----------------------------------------------------------------------
+Ran 30 tests in 142.028s
+
+OK
+
+Here is the output of the PyCodeStyle/PEP8 checker (showing the first instance of each issue).
+This is does not effect your grade ON THIS ASSIGNMENT. However, I may add it as a grading criteria.
+
+zhoujiayi_4151694_47329789_random_writer/final.py:57:9: W291 trailing whitespace
+Level 2:
+        ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank, for easier
+    filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+zhoujiayi_4151694_47329789_random_writer/final.py:180:1: E402 module level import not at top of file
+from enum import Enum
+^
+    Place imports at the top of the file.
+
+    Always put imports at the top of the file, just after any module comments
+    and docstrings, and before module globals and constants.
+
+    Okay: import os
+    Okay: # this is a comment\nimport os
+    Okay: '''this is a module docstring'''\nimport os
+    Okay: r'''this is a module docstring'''\nimport os
+    Okay:
+    try:\n\timport x\nexcept ImportError:\n\tpass\nelse:\n\tpass\nimport y
+    Okay:
+    try:\n\timport x\nexcept ImportError:\n\tpass\nfinally:\n\tpass\nimport y
+    E402: a=1\nimport os
+    E402: 'One string'\n"Two string"\nimport os
+    E402: a=1\nfrom sys import x
+
+    Okay: if x:\n    import os
+zhoujiayi_4151694_47329789_random_writer/final.py:206:80: E501 line too long (82 > 79 characters)
+        self.token = tokenization if tokenization is not None else Tokenization(0)
+                                                                               ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to have
+    several windows side-by-side.  The default wrapping on such devices looks
+    ugly.  Therefore, please limit all lines to a maximum of 79 characters.
+    For flowing long blocks of text (docstrings or comments), limiting the
+    length to 72 characters is recommended.
+
+    Reports error E501.
+zhoujiayi_4151694_47329789_random_writer/final.py:221:9: E265 block comment should start with '# '
+        #print("------------DEBUG-------------")
+        ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.  Inline
+    comments should be separated by at least two spaces from the statement.
+    They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+zhoujiayi_4151694_47329789_random_writer/final.py:262:50: E251 unexpected spaces around keyword / parameter equals
+                with open(filename, 'w', encoding = "utf-8") as f:
+                                                 ^
+    Don't use spaces around the '=' sign in function arguments.
+
+    Don't use spaces around the '=' sign when used to indicate a
+    keyword argument or a default parameter value, except when using a type
+    annotation.
+
+    Okay: def complex(real, imag=0.0):
+    Okay: return magic(r=real, i=imag)
+    Okay: boolean(a == b)
+    Okay: boolean(a != b)
+    Okay: boolean(a <= b)
+    Okay: boolean(a >= b)
+    Okay: def foo(arg: int = 42):
+    Okay: async def foo(arg: int = 42):
+
+    E251: def complex(real, imag = 0.0):
+    E251: return magic(r = real, i = imag)
+    E252: def complex(real, image: float=0.0):
+zhoujiayi_4151694_47329789_random_writer/final.py:290:14: E114 indentation is not a multiple of four (comment)
+             # file-like object
+             ^
+    Use 4 spaces per indentation level.
+
+    For really old code that you don't want to mess up, you can continue to
+    use 8-space tabs.
+
+    Okay: a = 1
+    Okay: if a == 0:\n    a = 1
+    E111:   a = 1
+    E114:   # a = 1
+
+    Okay: for item in items:\n    pass
+    E112: for item in items:\npass
+    E115: for item in items:\n# Hi\n    pass
+
+    Okay: a = 1\nb = 2
+    E113: a = 1\n    b = 2
+    E116: a = 1\n    # b = 2
+zhoujiayi_4151694_47329789_random_writer/final.py:292:33: E231 missing whitespace after ','
+                pickle.dump(self,f)
+                                ^
+    Each comma, semicolon or colon should be followed by whitespace.
+
+    Okay: [a, b]
+    Okay: (3,)
+    Okay: a[1:4]
+    Okay: a[:4]
+    Okay: a[1:]
+    Okay: a[1:4:2]
+    E231: ['a','b']
+    E231: foo(bar,baz)
+    E231: [{'a':'b'}]
+zhoujiayi_4151694_47329789_random_writer/final.py:335:54: E261 at least two spaces before inline comment
+            self.data = bytes(response.text, 'utf-8')#response.text.encode()
+                                                     ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.  Inline
+    comments should be separated by at least two spaces from the statement.
+    They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+zhoujiayi_4151694_47329789_random_writer/final.py:335:54: E262 inline comment should start with '# '
+            self.data = bytes(response.text, 'utf-8')#response.text.encode()
+                                                     ^
+    Separate inline comments by at least two spaces.
+
+    An inline comment is a comment on the same line as a statement.  Inline
+    comments should be separated by at least two spaces from the statement.
+    They should start with a # and a single space.
+
+    Each line of a block comment starts with a # and a single space
+    (unless it is indented text inside the comment).
+
+    Okay: x = x + 1  # Increment x
+    Okay: x = x + 1    # Increment x
+    Okay: # Block comment
+    E261: x = x + 1 # Increment x
+    E262: x = x + 1  #Increment x
+    E262: x = x + 1  #  Increment x
+    E265: #Block comment
+    E266: ### Block comment
+zhoujiayi_4151694_47329789_random_writer/final.py:367:40: E211 whitespace before '('
+        elif self.token == Tokenization (1) or self.token == Tokenization(2):
+                                       ^
+    Avoid extraneous whitespace.
+
+    Avoid extraneous whitespace in the following situations:
+    - before the open parenthesis that starts the argument list of a
+      function call.
+    - before the open parenthesis that starts an indexing or slicing.
+
+    Okay: spam(1)
+    E211: spam (1)
+
+    Okay: dict['key'] = list[index]
+    E211: dict ['key'] = list[index]
+    E211: dict['key'] = list [index]
+zhoujiayi_4151694_47329789_random_writer/final.py:415:1: W391 blank line at end of file
+
+^
+    Trailing blank lines are superfluous.
+
+    Okay: spam(1)
+    W391: spam(1)\n
+
+    However the last line should end with a new line (warning W292).
+1       E114 indentation is not a multiple of four (comment)
+2       E211 whitespace before '('
+2       E231 missing whitespace after ','
+4       E251 unexpected spaces around keyword / parameter equals
+1       E261 at least two spaces before inline comment
+1       E262 inline comment should start with '# '
+7       E265 block comment should start with '# '
+6       E402 module level import not at top of file
+1       E501 line too long (82 > 79 characters)
+2       W291 trailing whitespace
+1       W391 blank line at end of file
